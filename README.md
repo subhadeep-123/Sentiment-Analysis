@@ -15,6 +15,9 @@
   <li>Importing Necessary libraries</li>
   <li>setting up the consumer and access api tokens and keys</li>
   <li>Setting up the connection bridge and the search token</li>
-  <li><loading the pretrained model</li>
+  <li>loading the pretrained model</li>
   <li>Data Preprocessing</li>
+  <li>Fitting the model</li>
+  <li>Plotting The results</li>
+</ol>
   
