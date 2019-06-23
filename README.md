@@ -13,11 +13,24 @@
 <h3>Step 1</h3>
 <p>setting up the consumer and access keys and token, which we got from the developer twitter account</p>
 <code>
-#Initializing the API keys
-#Consumer Keys
-consumer_key = 'ZhP9aDb02I5o3Nz1dVMb7505D'
-consumer_secret = 'HahRh4LjYgyjaIIw3rEj9vFP4OKgUSDywuHNGITMt18dUJ56eD'
-#Generated API Tokens
-access_token = '3221955110-A61i8EDWbHIEqnNzZgoUw9P0tOEGmUBstHjZNVa'
-access_secret = 'CVDrSm34cwE3X1cp2bvPq87fZ0gAdv0iRmhYExnclCIjT'
+#Initializing the API keys<br>
+#Consumer Keys<br>
+consumer_key = 'ZhP9aDb02I5o3Nz1dVMb7505D'<br>
+consumer_secret = 'HahRh4LjYgyjaIIw3rEj9vFP4OKgUSDywuHNGITMt18dUJ56eD'<br>
+#Generated API Tokens<br>
+access_token = '3221955110-A61i8EDWbHIEqnNzZgoUw9P0tOEGmUBstHjZNVa'<br>
+access_secret = 'CVDrSm34cwE3X1cp2bvPq87fZ0gAdv0iRmhYExnclCIjT'<br>
+</code><br>
+
+<step 2 >
+<p>Setting up the connection bridge and in the args goes the keyword on which we want to search
+<code>
+#Client Authentication<br>
+auth = OAuthHandler(consumer_key, consumer_secret)<br>
+auth.set_access_token(access_token, access_secret)<br>
+#Setting up our search token<br>
+args = ['deeplearning']<br>
+
+#If it doesnot get any tweets then after 10sec it will timeout<br>
+api = tweepy.API(auth, timeout = 10)<br>
 </code>
