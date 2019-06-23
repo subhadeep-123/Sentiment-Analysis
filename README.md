@@ -6,4 +6,7 @@
 <h2>1. Twitter Sentiment analysis</h2>
 <ol>
   <li><a href = 'https://apps.twitter.com/app/new'>Twitter Developer Account</a></li>
+  <li><a href = 'http://www.tweepy.org/'>Tweepy Library</a></li>
+  <li><a href = 'http://www.nltk.org/'>NLTK Library</a></li>
+</ol>
   
