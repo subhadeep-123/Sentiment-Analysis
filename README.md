@@ -12,7 +12,9 @@
   
 <h2>Steps for Twitter Sentiment Analysis</h2>
 <ol>
-  <li>Importing Necessary libraries<li>
-  <li>setting up the consumer and access api tokens and keys<li>
+  <li>Importing Necessary libraries</li>
+  <li>setting up the consumer and access api tokens and keys</li>
   <li>Setting up the connection bridge and the search token</li>
+  <li><loading the pretrained model</li>
+  <li>Data Preprocessing</li>
   
