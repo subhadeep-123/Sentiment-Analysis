@@ -10,3 +10,14 @@
   <li><a href = 'http://www.nltk.org/'>NLTK Library</a></li>
 </ol>
   
+<h3>Step 1</h3>
+<p>setting up the consumer and access keys and token, which we got from the developer twitter account</p>
+<code>
+#Initializing the API keys
+#Consumer Keys
+consumer_key = 'ZhP9aDb02I5o3Nz1dVMb7505D'
+consumer_secret = 'HahRh4LjYgyjaIIw3rEj9vFP4OKgUSDywuHNGITMt18dUJ56eD'
+#Generated API Tokens
+access_token = '3221955110-A61i8EDWbHIEqnNzZgoUw9P0tOEGmUBstHjZNVa'
+access_secret = 'CVDrSm34cwE3X1cp2bvPq87fZ0gAdv0iRmhYExnclCIjT'
+</code>
