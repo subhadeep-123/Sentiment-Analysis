@@ -1,5 +1,5 @@
 </center>
-![alt text](1.jpg)
+![alt text](1.jpeg)
 </center>
 
 <h1>What is Sentiment-Analysis </h1>
