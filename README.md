@@ -40,6 +40,12 @@
  <li>VADER is intelligent enough to understand basic context of these words, such as "did not love" as a negative sentiment</li>
  
  <li>It also understands capitalization and punctuation, such as "love!!!"
+  
+ <li>Sentiment Analysis on raw text is always challenging however, due to a variety of possible factors:</li>
+  <ol>
+    <li>Positive and Negative sentiment is the same text data</li>
+    <li>Sarcasm using positive words in a negative way</li>
+  </ol>
 </ul>
   
   
