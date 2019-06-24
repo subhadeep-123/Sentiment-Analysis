@@ -22,4 +22,16 @@
   <li>Fitting the model</li>
   <li>Plotting The results</li>
 </ol>
+
+<h2>2. Using VADER</h2>
+<ul>
+  <li>Valence Aware Dictionary for Sentiment Reasoning is a model used for text sentiments analysis
+    that is sensitive to both polarity (positive/negative) and intensity (strength) of emotion.</li>
+ 
+ <li>It is available in the NLTK package and can be applied directly to unlabeled text data</li>
+  
+ <li>Primarily VADER sentiment analysis relies on a dictionary which lexical features to emotion
+    intensities called sentiment scores</li>
+</ul>
+  
   
