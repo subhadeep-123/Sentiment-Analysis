@@ -32,6 +32,14 @@
   
  <li>Primarily VADER sentiment analysis relies on a dictionary which lexical features to emotion
     intensities called sentiment scores</li>
+  
+ <li>The sentiment score of a text can be obtained by summing up the intensity of each word in the text.</li>
+ 
+ <li>For example, words like "love", "like", "enjoy", "happy" all convey a positive sentiment</li>
+ 
+ <li>VADER is intelligent enough to understand basic context of these words, such as "did not love" as a negative sentiment</li>
+ 
+ <li>It also understands capitalization and punctuation, such as "love!!!"
 </ul>
   
   
